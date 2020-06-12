@@ -1,0 +1,17 @@
+{
+  "name": "coding-exercise",
+  "version": "0.0.1",
+  "description": "Nursebuddy Coding Exercise",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nursebuddy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite-async": "^1.1.0",
+    "sqlite3": "^4.2.0"
+  }
+}
