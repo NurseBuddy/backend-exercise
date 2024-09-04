@@ -3,7 +3,10 @@ const {getClients, addClient} = require('./client');
 const {getClientVisits, addClientVisit} = require('./visit');
 
 const express = require('express');
+const cors = require('cors');
 const app = express();
+app.use(cors());
+
 const port = 3000;
 require('./create-tables');
 app.use(express.json());
